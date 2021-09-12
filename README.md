@@ -4,4 +4,4 @@ Here is a copy of my portfolio.
 
 ## Online Demo
 
-[Click here](portfolio-sylvestre.netlify.app)
+[Click here](https://sylvestre-portfolio.netlify.app/)
