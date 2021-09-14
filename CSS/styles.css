@@ -527,10 +527,16 @@ Services
   background: var(--clr-white);
 }
 
-@media screen and (min-width: 676px) {
+.services-center {
+  display: grid;
+  place-items: center;
+}
+
+/* @media screen and (min-width: 676px) {
   .services-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
     gap: 2rem;
   }
 }
@@ -538,10 +544,11 @@ Services
 @media screen and (min-width: 992px) {
   .services-center {
     display: grid;
+    place-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
   }
-}
+} */
 
 /* small screen layout setup */
 
@@ -776,6 +783,14 @@ Skills
   width: 80%;
 }
 
+.value-10 {
+  width: 10%;
+}
+
+.value-0 {
+  width: 0%;
+}
+
 .skill-text {
   position: absolute;
   top: -2rem;
@@ -789,6 +804,14 @@ Skills
 
 .skill-text-80 {
   left: 80%;
+}
+
+.skill-text-10 {
+  left: 10%;
+}
+
+.skill-text-0 {
+  left: 0%;
 }
 
 /*
@@ -873,7 +896,6 @@ Blog
 .card {
   height: 27rem;
   position: relative;
-
   /* talk later */
   perspective: 1500px;
 }
@@ -942,8 +964,10 @@ Blog
 
 .blog-center {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-  gap: 3rem 1rem;
+  grid-template-columns: 330px;
+  /* grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); */
+  /* gap: 3rem 1rem; */
+  margin-left: 10rem;
 }
 
 /*
