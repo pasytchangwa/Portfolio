@@ -189,7 +189,6 @@ p {
   }
 }
 
-/* added during recording */
 .underline {
   width: 5rem;
   height: 0.25rem;
@@ -309,8 +308,6 @@ Sidebar
   align-items: center;
   justify-content: center;
   transition: var(--transition);
-
-  /* add later */
   transform: translateX(-100%);
 }
 
@@ -896,7 +893,6 @@ Blog
 .card {
   height: 27rem;
   position: relative;
-  /* talk later */
   perspective: 1500px;
 }
 
