@@ -13,6 +13,7 @@
     "**/bootstrap*.css",
     "**/*.js",
     "**/*.jsx",
-    "**/fontawesome-free-5.12.1-web/**"
+    "**/fontawesome-free-5.12.1-web/**",
+    "**CSS/**"
   ]
 }
