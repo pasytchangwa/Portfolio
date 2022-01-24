@@ -1060,7 +1060,6 @@ Products Page
   border-top-right-radius: var(--radius);
   height: auto;
   max-height: 250px;
-  width: auto;
 }
 
 .project-container {
