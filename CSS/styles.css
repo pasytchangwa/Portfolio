@@ -626,17 +626,17 @@ Projects
 
 @media screen and (min-width: 992px) {
   .projects-center {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media screen and (min-width: 1170px) {
   .projects-center {
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 400px 400px;
     gap: 1rem;
     grid-template-areas:
-      "a b b"
-      "a c d";
+      "a b b e"
+      "a c d f";
   }
 
   .project-img {
@@ -661,6 +661,14 @@ Projects
 
   .project-4 {
     grid-area: d;
+  }
+
+  .project-5 {
+    grid-area: e;
+  }
+
+  .project-6 {
+    grid-area: f;
   }
 }
 
