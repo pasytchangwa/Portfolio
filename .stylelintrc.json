@@ -12,6 +12,8 @@
     "**/reset*.css",
     "**/bootstrap*.css",
     "**/*.js",
-    "**/*.jsx"
+    "**/*.jsx",
+    "**/fontawesome-free-5.12.1-web/**",
+    "**CSS/**"
   ]
 }
