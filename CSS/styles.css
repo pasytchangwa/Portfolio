@@ -1062,6 +1062,7 @@ Products Page
 
 .project-container {
   position: relative;
+  max-height: 200px;
 }
 
 .project-icon {
